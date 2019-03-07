@@ -8,12 +8,16 @@ import {HttpClient} from '@angular/common/http';
 })
 export class DashbordComponent implements OnInit {
 
-  customerCount: number = 0;
+  customersCount: number = 0;
+  itemsCount: number = 0;
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.http.get<any>('http://localhost:8080/api/v1/customers').subscribe(value => {
-      this.customerCount = value.length;
+    this.http.get<any>('http://localhost:8080/api/v1/customers').subscribe(customers => {
+      this.customersCount = customers.length;
+    });
+    this.http.get<any>('http://localhost:8080/api/v1/items').subscribe(items => {
+      this.itemsCount = items.length;
     });
   }
 

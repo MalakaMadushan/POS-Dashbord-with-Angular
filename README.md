@@ -1,4 +1,12 @@
-# Uis
+# Modern POS Dashbord with Angular
+
+#### Project Interfaces
+
+![angular1](https://user-images.githubusercontent.com/46773105/53977759-c1129680-412f-11e9-9f17-ed2c1fc893bb.png)
+
+![angular2](https://user-images.githubusercontent.com/46773105/53977770-c7087780-412f-11e9-802b-82793a049e9c.png)
+
+![angular3](https://user-images.githubusercontent.com/46773105/53977774-ca9bfe80-412f-11e9-9981-4615e6575a21.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
 
